@@ -4,9 +4,10 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
+import Footer from "./Footer";
 
 function Portfolio() {
-    const [currentPage, handlePageChange] = useState('About');
+    const [currentPage, setCurrentPage] = useState('About');
 
     const renderPage = () => {
         switch (currentPage) {
@@ -23,10 +24,14 @@ function Portfolio() {
 
     return (
         <div>
-            <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+            <h1>Joel Wesch</h1>
+            <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
                 <div>
                     {renderPage(currentPage)}
                 </div>
+
+            <Footer />
+            
         </div>
     );
 }
