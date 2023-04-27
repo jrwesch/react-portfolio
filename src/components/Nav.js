@@ -1,26 +1,24 @@
 import React from "react";
 
-function Nav() {
+function Nav(props) {
 
-    const pages = ["About Me", "Projects", "Resume", "Contact Info"];
-
-        function pageSelected(name) {
-            console.log(`${name} selected`);
-        }
+    const tabs = ["About Me", "Projects", "Resume", "Contact Info"];
 
         return (
-            <header>
-                <nav>
-                    <ul className="nav-list">
-                        {pages.map((page) => (
-                            <li className="list-item" key={page}>
-                                <span onClick={() => pageSelected(page)}>{page}</span>   
-                            </li>
-                        ))}
-                    </ul>
-                </nav>
-            </header>
-        )
+            <ul className="nav-list">
+                {tabs.map(tab => (
+                    <li className="list-item" key={tab}>
+                        <a href={'#' + tab.toLowerCase()}
+                        
+                        // when a tab is selected, current page sent through handlePageChange
+                        onClick={() => props.handlePageChange(tab)}
+                        className={props.currentPage === tab ? 'navActive' : 'nav-link'}>
+                            {tab}
+                        </a>
+                    </li>
+                ))}
+            </ul>
+        );
 }
 
 export default Nav;
