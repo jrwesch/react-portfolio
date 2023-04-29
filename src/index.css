@@ -22,3 +22,18 @@ code {
   margin-right: 20px;
   margin-left: 20px;
 }
+.password-challenge {
+  background-color: antiquewhite;
+}
+
+.js-quiz-challenge {
+  background-color: aquamarine;
+}
+
+.work-day-scheduler {
+  background-color: azure;
+}
+
+.readme-generator {
+  background-color: beige;
+}
