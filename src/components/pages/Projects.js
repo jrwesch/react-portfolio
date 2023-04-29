@@ -39,9 +39,8 @@ const Projects = () => (
     <div>
         <h1>Projects</h1>
             {projects.map(project => (
-                <div class={project.style}>
-                    <a href={project.liveURL} target="_blank" rel="noopener noreferrer" 
-                        key={project.name}>{project.name}</a>
+                <div className={project.style} key={project.name}>
+                    <a href={project.liveURL} target="_blank" rel="noopener noreferrer" >{project.name}</a>
 
                     <a href={project.gitURL} target="_blank" rel="nooperner noreferrer">GitHub Repo</a>
 
@@ -49,7 +48,7 @@ const Projects = () => (
                 </div>
         ))}
     </div>
-
+);
     
     
 
