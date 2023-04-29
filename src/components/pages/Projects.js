@@ -1,40 +1,58 @@
 import React from "react";
 
+
+const projects = [
+    {
+        name: "Password Challenge",
+        liveURL: "https://jrwesch.github.io/password-challenge/",
+        gitURL: "https://github.com/jrwesch/password-challenge",
+        tech: "HTML/CSS/JavaScript",
+        style: "password-challenge"
+    },
+    {
+        name: "JavaScript Quiz Challenge",
+        liveURL: "https://jrwesch.github.io/javascript-quiz-challenge/",
+        gitURL: "https://github.com/jrwesch/javascript-quiz-challenge",
+        tech: "HTML/CSS/JavaScript",
+        style: "js-quiz-challenge"  
+    },
+    {
+        name: "Work Day Scheduler",
+        liveURL: "jrwesch.github.io/workday-scheduler/",
+        gitURL: "https://github.com/jrwesch/workday-scheduler",
+        tech: "HTML/CSS/JavaScript/JQuery",
+        style: "work-day-scheduler"  
+    },
+    {
+        name: "ReadMe Generator",
+        liveURL: "",
+        gitURL: "https://github.com/jrwesch/readme-generator",
+        tech: "HTML/CSS/JavaScript/Node.js",
+        style: "readme-generator"   
+    }
+    
+
+] 
+
 const Projects = () => (
     
     <div>
-        <h1>Contact Form</h1>
+        <h1>Projects</h1>
+            {projects.map(project => (
+                <div class={project.style}>
+                    <a href={project.liveURL} target="_blank" rel="noopener noreferrer" 
+                        key={project.name}>{project.name}</a>
 
-        <p>
-        Black spot Gold Road Sea Legs killick pillage barque stern schooner. Long boat 
-        Jack Tar run a shot across the bow Jack Ketch execution dock spyglass carouser 
-        hardtack. Flogging fathom black jack scuppers barque squiffy Jack Ketch lass. Bilge 
-        rat chandler bounty port Letter of Marque gangway mutiny killick. Take a caulk 
-        starboard belaying pin Corsair ahoy snow sheet cable.
+                    <a href={project.gitURL} target="_blank" rel="nooperner noreferrer">GitHub Repo</a>
 
-        Sea Legs Jolly Roger scuppers tender square-rigged pirate booty chase. Interloper 
-        Buccaneer stern Yellow Jack port rutters log hornswaggle. Belay heave down provost 
-        fluke swab yawl coffer Sea Legs. Mutiny execution dock topgallant brigantine pressgang 
-        log to go on account scuttle. List cutlass Jolly Roger weigh anchor hardtack salmagundi 
-        avast swab.
-
-        Boom hang the jib code of conduct matey spanker transom to go on account tender. 
-        Furl bucko topgallant chantey mutiny brigantine no prey, no pay Sail ho. Jack Ketch Nelsons 
-        folly rutters red ensign scallywag lookout black spot man-of-war. Rum holystone grog gally 
-        stern scurvy yardarm fire in the hole. Jack Ketch piracy Barbary Coast chase guns rope's 
-        end wench cog barque.
-
-        Skysail tender deadlights capstan long clothes Sink me salmagundi Pirate Round. Hulk schooner 
-        main sheet cackle fruit gaff jolly boat deadlights red ensign. Gangplank fluke gun Pirate 
-        Round list run a rig spyglass knave. Mizzen execution dock lass splice the main brace blow 
-        the man down ahoy dead men tell no tales black spot. Clipper Pieces of Eight Sea Legs 
-        yardarm carouser chase guns furl nipper.
-
-        </p>
-
+                    <p>{project.tech}</p>
+                </div>
+        ))}
     </div>
+
+    
     
 
-);
 
-export default Projects;
+
+//export default Projects;
