@@ -28,7 +28,7 @@ const Portfolio = () => {
                 <h1>Joel Wesch</h1>
                 <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
             </header>
-                <main className="content-wrapper">
+                <main className="wrapper">
                     {renderPage(currentPage)}
                 </main>
 
