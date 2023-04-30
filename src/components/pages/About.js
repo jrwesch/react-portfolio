@@ -1,8 +1,10 @@
 import React from "react";
+import profilePic from "../../assets/images/wesch-profile.jpeg"
 
 const About = () => (
     <section>
         <h2 className="section-header">About Me</h2>
+        <img src={profilePic} alt="Joel Wesch" />
 
             <p>
             Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone 
@@ -22,7 +24,7 @@ const About = () => (
             gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the 
             seven seas boatswain schooner gaff booty Jack Tar transom spirits.
             </p>
-            
+
     </section>
 );
 

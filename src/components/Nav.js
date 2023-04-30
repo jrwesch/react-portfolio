@@ -2,7 +2,7 @@ import React from "react";
 
 function Nav(props) {
 
-    const tabs = ["About Me", "Projects", "Resume", "Contact Info"];
+    const tabs = ["About Me", "Projects", "Resume", "Contact"];
 
         return (
             <ul className="nav-list">
@@ -13,7 +13,7 @@ function Nav(props) {
                         // when a tab is selected, current page sent through handlePageChange
                         onClick={() => props.setCurrentPage(tab)}
                         className={props.currentPage === tab ? 'navActive' : 'nav-link'}>
-                            {tab}
+                            <h2>{tab}</h2>
                         </a>
                     </li>
                 ))}
