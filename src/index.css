@@ -18,6 +18,28 @@ code {
   list-style-type: none;
 }
 
+/* Resume Page */
+
+.download-link {
+  font-size: 18px;
+  margin-left: 0;
+}
+
+.section-header {
+
+}
+
+.list-header {
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.work-list {
+  font-size: 18px;
+}
+
+/* End Resume Page */
+
 .list-item {
   margin-right: 20px;
   margin-left: 20px;

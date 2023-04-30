@@ -6,12 +6,12 @@ const resumeName = resume.split('/')[3].split('.')[0].concat('.pdf')
 //it should just grab whatever pdf is in that folder
 
 const Resume = () => (
-    
-    <div>
-       <a href={resume} download={resumeName}>My Resume</a>
+    <section>
+        <h2 className="section-header">My Resume</h2>
+        <p className="download-link"> Download -- <a href={resume} download={resumeName}>My Resume</a></p>
 
-        <h3>Front-End Work</h3>
-            <ul>
+        <h3 className="list-header">Front-End Work</h3>
+            <ul className="work-list">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
@@ -22,17 +22,17 @@ const Resume = () => (
                 <li>Bulma</li>    
             </ul>
 
-        <h3>Back-End Work</h3>
-            <ul>
+        <h3 className="list-header">Back-End Work</h3>
+            <ul className="work-list">
                 <li>APIs</li>
                 <li>Node</li>
                 <li>Express</li>
                 <li>MySQL</li>
                 <li>MongoDB</li>
                 <li>REST</li>    
-            </ul>       
+            </ul>  
+    </section>     
 
-    </div>
     
 
 );
