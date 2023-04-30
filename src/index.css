@@ -159,25 +159,25 @@ section{
 }
 
 .password-challenge {
-  background-image: url("");
+  background-image: url("./assets/images/pass-gen-screenshot.png");
   background-position: 75% 80%;
   background-repeat: no-repeat;
 }
 
 .js-quiz-challenge {
-  background-image: url("");
+  background-image: url("./assets/images/quiz-main-page.png");
   background-position: 30% 15%;
   background-repeat: no-repeat;
 }
 
 .work-day-scheduler {
-  background-image: url("");
+  background-image: url("./assets/images/workday-scheduler-screenshot.png");
   background-position: 60% 30%;
   background-repeat: no-repeat;
 }
 
 .readme-generator{
-  background-image: url("");
+  background-image: url("./assets/images/readme-generator.png");
   background-position: 50% 0%;
   background-repeat: no-repeat;
 }
