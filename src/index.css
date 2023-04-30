@@ -26,7 +26,13 @@ code {
 }
 
 .section-header {
+  margin-bottom: 30px;
+  color: var(--dark);
+}
 
+section{
+  padding: var(--spacing-two);
+  color:black;
 }
 
 .list-header {
