@@ -6,7 +6,7 @@ import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import Footer from "./Footer";
 
-function Portfolio() {
+const Portfolio = () => {
     const [currentPage, setCurrentPage] = useState('About');
 
     const renderPage = () => {
@@ -24,11 +24,13 @@ function Portfolio() {
 
     return (
         <div>
-            <h1>Joel Wesch</h1>
-            <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
-                <div>
+            <header className="header">
+                <h1>Joel Wesch</h1>
+                <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
+            </header>
+                <main className="content-wrapper">
                     {renderPage(currentPage)}
-                </div>
+                </main>
 
             <Footer />
             
