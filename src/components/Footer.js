@@ -10,6 +10,10 @@ const Footer = () => {
         {
             name: 'LinkedIn',
             url: 'https://www.linkedin.com/in/joel-wesch-44050133/'
+        },
+        {
+            name: 'Stack Overflow',
+            url: 'https://stackoverflow.com/users/21782414/jrwesch'
         }
     ];
 

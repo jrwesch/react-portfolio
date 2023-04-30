@@ -10,8 +10,8 @@ const Resume = () => (
         <h2 className="section-header">My Resume</h2>
         <p className="download-link"> Download -- <a href={resume} download={resumeName}>My Resume</a></p>
 
-        <h3 className="list-header">Front-End Work</h3>
-            <ul className="work-list">
+        <h3 className="list-header">Front-End Proficiencies</h3>
+            <ul className="prof-list">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
@@ -22,8 +22,8 @@ const Resume = () => (
                 <li>Bulma</li>    
             </ul>
 
-        <h3 className="list-header">Back-End Work</h3>
-            <ul className="work-list">
+        <h3 className="list-header">Back-End Proficiencies</h3>
+            <ul className="prof-list">
                 <li>APIs</li>
                 <li>Node</li>
                 <li>Express</li>
