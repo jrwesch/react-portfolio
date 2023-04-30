@@ -1,36 +1,36 @@
 import React from "react";
+import resume from "../../assets/pdf/wesch_portfolio_resume.pdf";
+
+const resumeName = resume.split('/')[3].split('.')[0].concat('.pdf')
+//this makes it possible to have change the resume file and not have to change code in this file. The name is not hardcoded so 
+//it should just grab whatever pdf is in that folder
 
 const Resume = () => (
     
     <div>
-        <h1>Contact Form</h1>
+       <a href={resume} download={resumeName}>My Resume</a>
 
-        <p>
-        Black spot Gold Road Sea Legs killick pillage barque stern schooner. Long boat 
-        Jack Tar run a shot across the bow Jack Ketch execution dock spyglass carouser 
-        hardtack. Flogging fathom black jack scuppers barque squiffy Jack Ketch lass. Bilge 
-        rat chandler bounty port Letter of Marque gangway mutiny killick. Take a caulk 
-        starboard belaying pin Corsair ahoy snow sheet cable.
+        <h3>Front-End Work</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>Responsive Design</li>
+                <li>React</li>
+                <li>Bootstrap</li>
+                <li>Bulma</li>    
+            </ul>
 
-        Sea Legs Jolly Roger scuppers tender square-rigged pirate booty chase. Interloper 
-        Buccaneer stern Yellow Jack port rutters log hornswaggle. Belay heave down provost 
-        fluke swab yawl coffer Sea Legs. Mutiny execution dock topgallant brigantine pressgang 
-        log to go on account scuttle. List cutlass Jolly Roger weigh anchor hardtack salmagundi 
-        avast swab.
-
-        Boom hang the jib code of conduct matey spanker transom to go on account tender. 
-        Furl bucko topgallant chantey mutiny brigantine no prey, no pay Sail ho. Jack Ketch Nelsons 
-        folly rutters red ensign scallywag lookout black spot man-of-war. Rum holystone grog gally 
-        stern scurvy yardarm fire in the hole. Jack Ketch piracy Barbary Coast chase guns rope's 
-        end wench cog barque.
-
-        Skysail tender deadlights capstan long clothes Sink me salmagundi Pirate Round. Hulk schooner 
-        main sheet cackle fruit gaff jolly boat deadlights red ensign. Gangplank fluke gun Pirate 
-        Round list run a rig spyglass knave. Mizzen execution dock lass splice the main brace blow 
-        the man down ahoy dead men tell no tales black spot. Clipper Pieces of Eight Sea Legs 
-        yardarm carouser chase guns furl nipper.
-
-        </p>
+        <h3>Back-End Work</h3>
+            <ul>
+                <li>APIs</li>
+                <li>Node</li>
+                <li>Express</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>REST</li>    
+            </ul>       
 
     </div>
     
