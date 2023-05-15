@@ -29,6 +29,13 @@ const projects = [
         gitURL: "https://github.com/jrwesch/readme-generator",
         tech: "HTML/CSS/JavaScript/Node.js",
         style: "readme-generator"   
+    },
+    {
+        name: "UFit Final Project",
+        liveURL: "https://pure-savannah-65137.herokuapp.com/",
+        gitURL: "https://github.com/sampaul10/Fitness-Tracker",
+        tech: "",
+        style: "UFit"
     }
     
 
