@@ -27,7 +27,7 @@ const projects = [
         name: "U-Fit Final Project",
         liveURL: "https://pure-savannah-65137.herokuapp.com/",
         gitURL: "https://github.com/sampaul10/Fitness-Tracker",
-        tech: "",
+        tech: "HTML/CSS/REACT/MONGODB",
         style: "u-fit"
        
     },
