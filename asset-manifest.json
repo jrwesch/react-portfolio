@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.b3b8152f.css",
-    "main.js": "/react-portfolio/static/js/main.8b9c8f53.js",
+    "main.css": "/react-portfolio/static/css/main.c571904d.css",
+    "main.js": "/react-portfolio/static/js/main.7800d79a.js",
     "static/js/787.87f1d352.chunk.js": "/react-portfolio/static/js/787.87f1d352.chunk.js",
+    "static/media/u-fit.png": "/react-portfolio/static/media/u-fit.845ce365b79c1cda321f.png",
     "static/media/wesch_portfolio_resume.pdf": "/react-portfolio/static/media/wesch_portfolio_resume.edf2d2abffcf5079278b.pdf",
     "static/media/readme-generator.png": "/react-portfolio/static/media/readme-generator.afff8d8459e7660a6ac9.png",
     "static/media/workday-scheduler-screenshot.png": "/react-portfolio/static/media/workday-scheduler-screenshot.5412867e8624a8002c8f.png",
@@ -10,12 +11,12 @@
     "static/media/quiz-main-page.png": "/react-portfolio/static/media/quiz-main-page.d4e2c86b8555107734bb.png",
     "static/media/wesch-profile.jpeg": "/react-portfolio/static/media/wesch-profile.0450268f5d59bee84b99.jpeg",
     "index.html": "/react-portfolio/index.html",
-    "main.b3b8152f.css.map": "/react-portfolio/static/css/main.b3b8152f.css.map",
-    "main.8b9c8f53.js.map": "/react-portfolio/static/js/main.8b9c8f53.js.map",
+    "main.c571904d.css.map": "/react-portfolio/static/css/main.c571904d.css.map",
+    "main.7800d79a.js.map": "/react-portfolio/static/js/main.7800d79a.js.map",
     "787.87f1d352.chunk.js.map": "/react-portfolio/static/js/787.87f1d352.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3b8152f.css",
-    "static/js/main.8b9c8f53.js"
+    "static/css/main.c571904d.css",
+    "static/js/main.7800d79a.js"
   ]
 }
