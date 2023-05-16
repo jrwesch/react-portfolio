@@ -183,7 +183,7 @@ section{
 }
 
 .u-fit{
-  background-image: "";
+  background-image: url("./assets/images/u-fit.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
