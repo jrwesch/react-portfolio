@@ -182,6 +182,12 @@ section{
   background-repeat: no-repeat;
 }
 
+.u-fit{
+  background-image: "";
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 /* End Projects Styling */
 
 /* Styling for the Contact form page */
